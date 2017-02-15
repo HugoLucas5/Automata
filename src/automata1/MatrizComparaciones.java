@@ -93,8 +93,8 @@ public class MatrizComparaciones {
             int con=0;
             //si son inidistinguibles los estados, se insertan en la matriz sus estados destinos respecto a transiciones
             for(int cont=1;cont<=tamañoAlfa;cont++){
-//                matrix[filest][cont].setEst1(es1.getTransiçaos(con));
-//                matrix[filest][cont].setEst2(es2.getTransiçaos(con));               
+                matrix[filest][cont].setEst1(es1.getTransiçaos(con));
+                matrix[filest][cont].setEst2(es2.getTransiçaos(con));               
                 con++;
             }
             //comparamos en la misma fila y distintas columnas, si hay alguna pareja igual a la original, para revisarla
